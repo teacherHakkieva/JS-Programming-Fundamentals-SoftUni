@@ -1,4 +1,6 @@
 function GarageArray(input) {
+                carInfo: []
+            });
             found = garages.find(g => g.garageNumber === garageNumber);
         }
         found.carInfo.push(carInfo);
