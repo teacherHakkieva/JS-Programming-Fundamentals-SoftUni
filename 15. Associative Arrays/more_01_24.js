@@ -1,4 +1,11 @@
 function GarageArray(input) {
+    let garages = [];
+    for (const line of input) {
+        let [garageNumber, carInfo] = line.split(' - ');
+        let found = garages.find(g => g.garageNumber === garageNumber);
+        if (!found) {
+            garages.push({
+                garageNumber: garageNumber,
                 carInfo: []
             });
             found = garages.find(g => g.garageNumber === garageNumber);
