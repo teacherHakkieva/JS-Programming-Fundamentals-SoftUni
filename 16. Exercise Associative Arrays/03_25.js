@@ -3,6 +3,10 @@ function piccolo(input) {
   for (let i = 0; i < input.length; i++) {
     let com = input[i].split(", ");
     let inOut = com[0];
+    let carNum = com[1];
+    if (inOut == "IN") {
+      inParl[carNum] = 0;
+    } else {
     }
   }
   let sorted = Object.entries(inParl).sort();
