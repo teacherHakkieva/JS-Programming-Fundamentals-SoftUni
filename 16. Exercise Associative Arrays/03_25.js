@@ -1,3 +1,8 @@
+function piccolo(input) {
+  let inParl = {};
+  for (let i = 0; i < input.length; i++) {
+    let com = input[i].split(", ");
+    let inOut = com[0];
     }
   }
   let sorted = Object.entries(inParl).sort();
