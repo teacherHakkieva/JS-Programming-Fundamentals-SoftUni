@@ -7,6 +7,7 @@ function piccolo(input) {
     if (inOut == "IN") {
       inParl[carNum] = 0;
     } else {
+      delete inParl[carNum];
     }
   }
   let sorted = Object.entries(inParl).sort();
